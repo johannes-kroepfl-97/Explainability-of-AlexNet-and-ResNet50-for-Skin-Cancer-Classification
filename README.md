@@ -2,7 +2,7 @@
 
 This project applies the concept of Transfer Learning for the classification of different types of skin cancer. Two pre-trained networks, AlexNet and ResNet50, have been utilized for this purpose.
 
-The dataset used for this project is Skin Cancer MNIST: HAM10000, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Due to file size limitations the data is not provided in this repository, but can be access here: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?select=HAM10000_metadata.csv . For the project I used the file "hmnist_28_28_RGB.csv".
+The dataset used for this project is Skin Cancer MNIST: HAM10000, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Due to file size limitations the data is not provided in this repository, but can be access here: https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?select=HAM10000_metadata.csv . To properly use the code you have to create a folder called `data` and place the fiel "hmnist_28_28_RGB.csv" from the link into it.
 
 The main goals of this project are not only to accurately classify the different types of skin cancer but also to gain insights into the training process. It aims to make the machine learning process a bit more transparent and explainable.
 
